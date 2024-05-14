@@ -14,7 +14,7 @@ export default function TodoCard(props) {
                 <button onClick={() => {
                     handleDeleteTodo(index)
                 }}>
-                    <i class="fa-solid fa-delete-left"></i>
+                    <i className="fa-solid fa-delete-left"></i>
                 </button>
             </div>
         </li>
